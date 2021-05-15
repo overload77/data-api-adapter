@@ -10,7 +10,7 @@ import pymysql
 connection = pymysql.connect('Credentials here')
 cursor = connection.cursor()
 
-# Execute sql queries
+# Execute queries
 cursor.execute(simple_query)
 cursor.execute(parameterized_query, query_parameters)
 cursor.executemany(query, data)
@@ -23,7 +23,7 @@ import RdsDataApiClient
 # Create client object
 data_api_client = RdsDataApiClient('Credentials here')
 
-# Execute sql queries
+# Execute queries
 data_api_client.execute(query)
 data_api_client.execute(parameterized_query, query_parameters)
 data_api_client.executemany(query, data)
