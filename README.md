@@ -24,7 +24,7 @@ import RdsDataApiClient
 data_api_client = RdsDataApiClient('Credentials here')
 
 # Execute queries
-data_api_client.execute(query)
+data_api_client.execute(simple_query)
 data_api_client.execute(parameterized_query, query_parameters)
 data_api_client.executemany(query, data)
 ```
