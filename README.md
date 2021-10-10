@@ -1,5 +1,5 @@
 # Data API adaptor
-Want to use Rds Data API without breaking your code? Use this :palms_up_together:  
+Want to use Data API for Aurora Serverless without breaking your code? Use this :palms_up_together:  
 
 ## Usage
 ### Old code
